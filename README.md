@@ -1,4 +1,8 @@
-##  Welcome to Home of Cheque Application 
+# The live application is Available on Azure...
+
+
+##  https://deepend.azurewebsites.net/
+
 
 This Solution is structured into the following projects
 
