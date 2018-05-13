@@ -1,0 +1,15 @@
+C:\Users\taz\Source\Repos\deepend\deepend.entity\bin\Release\netstandard2.0\deepend.entity.deps.json
+C:\Users\taz\Source\Repos\deepend\deepend.entity\bin\Release\netstandard2.0\deepend.entity.dll
+C:\Users\taz\Source\Repos\deepend\deepend.entity\bin\Release\netstandard2.0\deepend.entity.pdb
+C:\Users\taz\Source\Repos\deepend\deepend.entity\bin\Release\netstandard2.0\System.ComponentModel.DataAnnotations.dll
+C:\Users\taz\Source\Repos\deepend\deepend.entity\bin\Release\netstandard2.0\System.Configuration.dll
+C:\Users\taz\Source\Repos\deepend\deepend.entity\bin\Release\netstandard2.0\System.Security.dll
+C:\Users\taz\Source\Repos\deepend\deepend.entity\bin\Release\netstandard2.0\System.ComponentModel.DataAnnotations.xml
+C:\Users\taz\Source\Repos\deepend\deepend.entity\bin\Release\netstandard2.0\System.Configuration.xml
+C:\Users\taz\Source\Repos\deepend\deepend.entity\bin\Release\netstandard2.0\System.Security.xml
+C:\Users\taz\Source\Repos\deepend\deepend.entity\obj\Release\netstandard2.0\deepend.entity.csprojResolveAssemblyReference.cache
+C:\Users\taz\Source\Repos\deepend\deepend.entity\obj\Release\netstandard2.0\deepend.entity.csproj.CoreCompileInputs.cache
+C:\Users\taz\Source\Repos\deepend\deepend.entity\obj\Release\netstandard2.0\deepend.entity.AssemblyInfoInputs.cache
+C:\Users\taz\Source\Repos\deepend\deepend.entity\obj\Release\netstandard2.0\deepend.entity.AssemblyInfo.cs
+C:\Users\taz\Source\Repos\deepend\deepend.entity\obj\Release\netstandard2.0\deepend.entity.dll
+C:\Users\taz\Source\Repos\deepend\deepend.entity\obj\Release\netstandard2.0\deepend.entity.pdb

@@ -1,0 +1,6 @@
+C:\Users\taz\Source\Repos\deepend\deepend.db\bin\Release\deepend.db.dacpac
+C:\Users\taz\Source\Repos\deepend\deepend.db\bin\Release\Cheques.sql
+C:\Users\taz\Source\Repos\deepend\deepend.db\bin\Release\deepend.db.dll
+C:\Users\taz\Source\Repos\deepend\deepend.db\bin\Release\deepend.db.pdb
+C:\Users\taz\Source\Repos\deepend\deepend.db\obj\Release\deepend.db.dll
+C:\Users\taz\Source\Repos\deepend\deepend.db\obj\Release\deepend.db.pdb

@@ -1,0 +1,13 @@
+C:\Users\taz\Source\Repos\deepend\deepend.common\bin\Debug\netstandard2.0\deepend.common.deps.json
+C:\Users\taz\Source\Repos\deepend\deepend.common\bin\Debug\netstandard2.0\deepend.common.dll
+C:\Users\taz\Source\Repos\deepend\deepend.common\bin\Debug\netstandard2.0\deepend.common.pdb
+C:\Users\taz\Source\Repos\deepend\deepend.common\bin\Debug\netstandard2.0\System.Configuration.dll
+C:\Users\taz\Source\Repos\deepend\deepend.common\bin\Debug\netstandard2.0\System.Security.dll
+C:\Users\taz\Source\Repos\deepend\deepend.common\bin\Debug\netstandard2.0\System.Configuration.xml
+C:\Users\taz\Source\Repos\deepend\deepend.common\bin\Debug\netstandard2.0\System.Security.xml
+C:\Users\taz\Source\Repos\deepend\deepend.common\obj\Debug\netstandard2.0\deepend.common.csprojResolveAssemblyReference.cache
+C:\Users\taz\Source\Repos\deepend\deepend.common\obj\Debug\netstandard2.0\deepend.common.csproj.CoreCompileInputs.cache
+C:\Users\taz\Source\Repos\deepend\deepend.common\obj\Debug\netstandard2.0\deepend.common.AssemblyInfoInputs.cache
+C:\Users\taz\Source\Repos\deepend\deepend.common\obj\Debug\netstandard2.0\deepend.common.AssemblyInfo.cs
+C:\Users\taz\Source\Repos\deepend\deepend.common\obj\Debug\netstandard2.0\deepend.common.dll
+C:\Users\taz\Source\Repos\deepend\deepend.common\obj\Debug\netstandard2.0\deepend.common.pdb

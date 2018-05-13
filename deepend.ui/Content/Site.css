@@ -1,0 +1,55 @@
+﻿
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+@font-face {
+    font-family: angelina;
+    src: url('../fonts/angelina.TTF');
+    
+}
+
+@font-face {
+    font-family: Boogalo;
+    src: url('../fonts/Boogaloo-Regular.ttf');
+}
+@font-face {
+    font-family: DancingScript;
+    src: url('../fonts/DancingScript-Regular.ttf');
+}
+@font-face {
+    font-family: DancingScriptBold;
+    src: url('../fonts/DancingScript-Bold.ttf');
+}
+
+@font-face {
+    font-family: Barcode;
+    src: url('../fonts/LibreBarcode39-Regular.ttf');
+}
+@font-face {
+    font-family: Signature;
+    src: url('../fonts/Jellyka_Estrya_Handwriting.ttf');
+}
+
+@font-face {
+    font-family: RockSalt;
+    src: url('../fonts/RockSalt-Regular.ttf');
+    font-size:40px;
+}
+
+@font-face{
+    font-family:GreatVibes;
+    src:url('../fonts/FrederickatheGreat-Regular.ttf');
+    font-size:30px;
+    font-weight:bold
+}

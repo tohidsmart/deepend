@@ -1,0 +1,17 @@
+C:\Users\taz\Source\Repos\deepend\deepend.business\bin\Release\netstandard2.0\deepend.business.deps.json
+C:\Users\taz\Source\Repos\deepend\deepend.business\bin\Release\netstandard2.0\deepend.business.dll
+C:\Users\taz\Source\Repos\deepend\deepend.business\bin\Release\netstandard2.0\deepend.business.pdb
+C:\Users\taz\Source\Repos\deepend\deepend.business\bin\Release\netstandard2.0\deepend.entity.dll
+C:\Users\taz\Source\Repos\deepend\deepend.business\bin\Release\netstandard2.0\System.ComponentModel.DataAnnotations.dll
+C:\Users\taz\Source\Repos\deepend\deepend.business\bin\Release\netstandard2.0\System.Configuration.dll
+C:\Users\taz\Source\Repos\deepend\deepend.business\bin\Release\netstandard2.0\System.Security.dll
+C:\Users\taz\Source\Repos\deepend\deepend.business\bin\Release\netstandard2.0\deepend.entity.pdb
+C:\Users\taz\Source\Repos\deepend\deepend.business\bin\Release\netstandard2.0\System.ComponentModel.DataAnnotations.xml
+C:\Users\taz\Source\Repos\deepend\deepend.business\bin\Release\netstandard2.0\System.Configuration.xml
+C:\Users\taz\Source\Repos\deepend\deepend.business\bin\Release\netstandard2.0\System.Security.xml
+C:\Users\taz\Source\Repos\deepend\deepend.business\obj\Release\netstandard2.0\deepend.business.csprojResolveAssemblyReference.cache
+C:\Users\taz\Source\Repos\deepend\deepend.business\obj\Release\netstandard2.0\deepend.business.csproj.CoreCompileInputs.cache
+C:\Users\taz\Source\Repos\deepend\deepend.business\obj\Release\netstandard2.0\deepend.business.AssemblyInfoInputs.cache
+C:\Users\taz\Source\Repos\deepend\deepend.business\obj\Release\netstandard2.0\deepend.business.AssemblyInfo.cs
+C:\Users\taz\Source\Repos\deepend\deepend.business\obj\Release\netstandard2.0\deepend.business.dll
+C:\Users\taz\Source\Repos\deepend\deepend.business\obj\Release\netstandard2.0\deepend.business.pdb

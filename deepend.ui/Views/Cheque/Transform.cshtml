@@ -1,0 +1,141 @@
+﻿<style>
+    input[type=text] {
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1px solid black;
+        width: 100%;
+    }
+
+    .mainContainer {
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        padding: 30px;
+        box-shadow: 1px 1px 1px #efefef;
+    }
+
+    div.row {
+        margin-top: 20px;
+    }
+
+    div {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .divLabel {
+        margin-top: 6px;
+        float: left;
+    }
+
+    .BankName {
+        font-family: DancingScriptBold;
+        font-size: 45px;
+    }
+
+    .divLabel span {
+        font-size: 25px;
+        font-family: Boogalo
+    }
+
+    .Amount {
+        border: 1px solid;
+        min-height: 45px;
+        overflow: hidden;
+        border-radius: 3px;
+        padding: 5px;
+    }
+
+    .serial {
+        font-family: Barcode;
+        font-size: 50px;
+    }
+
+    .signature {
+        font-family: RockSalt;
+    }
+
+    .details {
+        font-family: GreatVibes;
+        font-size: 20px;
+        font-style: italic;
+    }
+</style>
+
+@model deepend.entity.Response.ChequeResponse
+
+<h2>Cheque Details</h2>
+
+<div class="row">
+    <div class="col-md-12 mainContainer">
+        <div class="row">
+            <div class="col-md-4 BankName">
+                Bank OF Australia
+            </div>
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-2">
+                <img src="~/fonts/img/logo.jpg" />
+            </div>
+        </div>
+        <div class="row">
+
+            <div class=" col-pull-7 divLabel ">
+                <span class="">Date:</span>
+            </div>
+            <div class="col-md-5">
+                <input class="details" type="text" value="@Model.DateTime.ToShortDateString()">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class=" divLabel">
+                <span class=""> Pay to:</span>
+            </div>
+            <div class="col-md-4 ">
+                <input class="details" type="text" value="@Model.PersonName">
+            </div>
+            <div class=" divLabel">
+                <span>$</span>
+            </div>
+            <div class="col-md-5">
+                <input type="text" class="details" value="@Model.Amount">
+            </div>
+        </div>
+        <div class="row">
+            <div class=" divLabel">
+                <span>Amount:</span>
+            </div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-12 Amount details">
+                        @Model.ChequeAmountInLetter.ToUpper()
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-3 serial">
+                12345678
+
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-2 divLabel">
+                <span>Signature</span>
+            </div>
+
+            <div class="col-md-3 signature divLabel">
+                Thomas Jefferson
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
+

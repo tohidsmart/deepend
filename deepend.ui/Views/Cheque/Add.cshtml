@@ -1,0 +1,33 @@
+﻿
+
+@model deepend.entity.Request.ChequeRequest
+
+
+<h2>Add New Cheque</h2>
+<div class="row">
+    @Html.ValidationSummary()
+</div>
+<div class="row">
+
+    <div class="col-md-6">
+
+        @using (Html.BeginForm("AddCheque", "Cheque", FormMethod.Post))
+        {
+            <div class="form-group">
+                <label class="control-label">@Html.DisplayNameFor(m => m.PersonName)</label>
+                @Html.TextBoxFor(m => m.PersonName, new { @class = "form-control", @placeholder = "Person Name e.g John Smith" })
+            </div>
+
+            <div class="form-group">
+                <label class="control-label">@Html.DisplayNameFor(m => m.ChequeAmount)</label>
+                @Html.TextBoxFor(m => m.ChequeAmount, new { @class = "form-control", @placeholder = "value between 1.00 & 999999999.99" })
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" />
+            </div>
+        }
+
+
+    </div>
+
+</div>

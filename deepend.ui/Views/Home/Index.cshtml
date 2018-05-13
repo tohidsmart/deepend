@@ -1,0 +1,46 @@
+﻿<div class="row">
+    <div class="col-md-3">
+        <h3> View  All Cheques</h3>
+    </div>
+    <div class="col-md-7"></div>
+    <div class="col-md-2">
+       
+        
+       @Html.ActionLink("Add New", "Add", "Cheque", null, new { @class = "btn btn-primary" })
+    </div>
+</div>
+
+@model List<deepend.entity.Response.ChequeResponse>
+
+<div class="row" style="margin-top:20px;">
+    <div class="table-responsive">
+        <table class="table  table-hover table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Date & Time </th>
+                    <th>Person Name</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+
+
+                @foreach (var cheque in Model)
+                {
+                    <tr>
+                        <td class="badge badge-primary">@cheque.Id</td>
+                        <td>@cheque.DateTime</td>
+                        <td>@cheque.PersonName</td>
+                        <td>@Html.ActionLink(cheque.Amount.ToString(), "Transform", "Cheque", new { id = cheque.Id }, null)</td>
+                        <td></td>
+                    </tr>
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
