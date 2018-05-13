@@ -3,20 +3,20 @@
 This Solution is structured into the following projects
 
 - Business
-       deepend.business
+   - deepend.business
 - Common
-    deepend.common
+   - deepend.common
 - Data 
- deepend.data
- deepend.db
+   - deepend.data
+   - deepend.db
  - Entities
- deepend.entity
+    - deepend.entity
 - API 
-deepend.api
+  - deepend.api
 - UI 
-deepend.ui
+   - deepend.ui
 - Test
-deepend.test
+   - deepend.test
    
   I try to explain the purpose of each project briefly. 
 ### deepend.Business
@@ -62,11 +62,15 @@ This is the test project of the solution contains Integration test for API, Busi
 3. Click on Edit Button and Select the desired Server 
 4. Give a name to database 
 5. Click Publish 
-6. After Publish is successful, please replace the connection string values in "Web.Config" of "deepend.api" project  at line 14 
+6. After Publish is successful, please replace the connection string values in "Web.Config" of "deepend.api" project in line 14 
    - Assign to  "Data Source" the value of SQL server name 
    -  Assign to "Initial Catalog" the name of the database you provided in step 4 
    - Assign to "User Id" and "Password" the user name and Password of your SQL server 
-7. Start the Project in Visual Studio 
+7. Set the Start settings
+   - Right click on the solution name
+   - Select Properties 
+   - Make sure multiple start Project option is enabled and "deepend.api" and " deepend.ui" action is Set to start and rest of other projecs is set to None 
+7. Start the Project in Visual Studio by selecting "multiple start project" option 
 
 # NOTE:
 If you wish to run the Integrations test, you have to copy the same connectionstring from "deepend.api" into App.Config of "deepend.test" project
