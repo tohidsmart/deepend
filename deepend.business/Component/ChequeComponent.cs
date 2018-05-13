@@ -53,33 +53,6 @@ namespace deepend.business.Component
 
             return result;
         }
-
-        private string ProcessNumber2(decimal number)
-        {
-
-            AmountConverter2 converter2 = new AmountConverter2();
-
-            StringBuilder sb = new StringBuilder();
-            decimal Integral = Math.Truncate(number);
-            decimal fraction = number - Integral;
-
-            string first = converter2.Convert(Integral.ToString());
-            string dollarPlaceHolder = first.Trim(new char[] { ' ' }) == "ONE" ? "DOLLAR" : "DOLLARS";
-            sb.Append($" {first} {dollarPlaceHolder}");
-
-            string second = converter2.GetFractionStringRepresentation(fraction.ToString().Replace(".", "").TrimStart(new char[] { '0' }));
-            if (!string.IsNullOrEmpty(second))
-            {
-                string centPlaceHolder = second.Trim(new char[] { ' ' }) == "ONE" ? "CENT" : "CENTS";
-                sb.Append($" AND {second} {centPlaceHolder} ");
-            }
-
-            Regex regex = new Regex("[ ]{2,}", RegexOptions.None);
-            string result = regex.Replace(sb.ToString(), " ");
-
-            return result;
-        }
-
-
+        
     }
 }

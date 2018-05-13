@@ -13,14 +13,14 @@ using deepend.data;
 namespace deepend.api.Controllers
 {
     [RoutePrefix("api/v1/cheques")]
-    public class ChequeController : ApiController
+    public class ChequesController : ApiController
     {
         private readonly IChequeComponent chequeComponent;
         private readonly IChequeData chequeData;
 
 
 
-        public ChequeController(IChequeComponent chequeComponent, IChequeData chequeData)
+        public ChequesController(IChequeComponent chequeComponent, IChequeData chequeData)
         {
             this.chequeComponent = chequeComponent;
             this.chequeData = chequeData;

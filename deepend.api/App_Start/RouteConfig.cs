@@ -11,8 +11,8 @@ namespace deepend.api
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Cheque", action = "Post", id = UrlParameter.Optional }
+                url: "api/v1/{controller}/{action}",
+                defaults: new { controller = "cheques", action = "all" }
             );
         }
     }
