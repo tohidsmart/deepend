@@ -50,7 +50,7 @@ This is the test project of the solution contains Integration test for API, Busi
 - Integration Testing. I used Nunit and NSubsitute for testing framework 
 
 ### Projects Structure 
-![](https://github.com/tohidsmart/deepend/blob/master/Capture.JPG)
+![](https://github.com/tohidsmart/deepend/blob/master/strcuture.JPG)
 
 ### Integration Tests Result
 ![](https://github.com/tohidsmart/deepend/blob/master/test.JPG)
