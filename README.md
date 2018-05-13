@@ -48,3 +48,44 @@ This is the test project of the solution contains Integration test for API, Busi
 - Single Responsibility through various projects and separate classes which promotes extend-ability  
 - ORM for performing CRUD  with database . I used Dapper for the ORM 
 - Integration Testing. I used Nunit and NSubsitute for testing framework 
+
+### Projects Structure 
+![](https://github.com/tohidsmart/deepend/blob/master/Capture.JPG)
+
+### Integration Tests Result
+![](https://github.com/tohidsmart/deepend/blob/master/test.JPG)
+
+# How To Run This project locally 
+
+1. First Publish the "deepend.db" project to SQL Server 
+2. Right click on the project and Select Publish 
+3. Click on Edit Button and Select the desired Server 
+4. Give a name to database 
+5. Click Publish 
+6. After Publish is successful, please replace the connection string values in "Web.Config" of "deepend.api" project  at line 14 
+   - Assign to  "Data Source" the value of SQL server name 
+   -  Assign to "Initial Catalog" the name of the database you provided in step 4 
+   - Assign to "User Id" and "Password" the user name and Password of your SQL server 
+7. Start the Project in Visual Studio 
+
+# NOTE:
+If you wish to run the Integrations test, you have to copy the same connectionstring from "deepend.api" into App.Config of "deepend.test" project
+
+
+### When the project starts, it will load the main page like below 
+
+### Main Page 
+This page will display all the cheques in the database ordere by data and time descending 
+
+![](https://github.com/tohidsmart/deepend/blob/master/Home.JPG)
+
+## Add New Cheque 
+By clicking on Add new Button ,you will be redirected to another page which you can create a new cheque 
+
+![](https://github.com/tohidsmart/deepend/blob/master/addnew.JPG)
+
+## view Cheque Details 
+By clicking on any Cheque amount in the main page table , you will be redirected to view cheque detail page. It will show the cheque amount in letters with some extra details 
+
+![](https://github.com/tohidsmart/deepend/blob/master/details.JPG)
+
